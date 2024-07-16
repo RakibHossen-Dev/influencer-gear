@@ -76,6 +76,22 @@
   font-weight: 700;
 }
 
+/* sponsor section related style */
+
+.sponsor {
+  width: 1110px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
 @media screen and (max-width: 576px) {
   .navbar,
   .navigation-menu {
@@ -96,5 +112,10 @@
   .hero-description,
   .hero-button {
     text-align: center;
+  }
+  .sponsor {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
   }
 }
