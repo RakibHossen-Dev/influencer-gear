@@ -96,6 +96,7 @@
   width: 1047px;
   height: 1662px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .collection-conetent-parent {
   display: grid;
@@ -121,14 +122,14 @@
   margin: 15px auto;
 }
 .collection-content h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #18191f;
   margin-left: 15px;
   margin-bottom: 10px;
 }
 .collection-content h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #000;
   margin-left: 15px;
   margin-bottom: 5px;
@@ -148,6 +149,68 @@
   color: rgba(224, 44, 109, 0.87);
   font-weight: bold;
   text-decoration: none;
+}
+.featured {
+  width: 1110px;
+  height: 270px;
+  margin: 0 auto;
+  display: flex;
+  gap: 96px;
+}
+.featured-content {
+  width: 610px;
+  height: 224px;
+  margin-top: 25px;
+}
+.featured-title {
+  color: #0a0826;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.featured-description {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #6c6c6c;
+}
+.featured-button {
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+}
+.footer {
+  width: 1348;
+  height: 200px;
+  background-color: #130f40;
+  margin-top: 100px;
+}
+.footer-title {
+  font-size: 1.5rem;
+  font-size: 700;
+  margin-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.footer-description {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.footer-icon a {
+  color: #fff;
+  text-decoration: none;
+  margin: 6px;
+  font-size: 25px;
 }
 @media screen and (max-width: 576px) {
   .navbar,
@@ -182,9 +245,10 @@
   }
   .Collection-container {
     width: 100%;
+    height: auto;
   }
   .collection-content {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
   .collection-content-image img {
@@ -192,5 +256,21 @@
   }
   .see-more {
     margin-left: 40px;
+  }
+  .featured {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .featured-content {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .featured-image img {
+    width: 100%;
   }
 }
